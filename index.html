@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện Tập Đường Ruột Cho Vận Động Viên Chạy Bền</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container flex justify-between items-center">
+            <div class="nav-brand">
+                <h2 class="m-0">🏃‍♂️ Gut Training VN</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-section="home">Trang chủ</a></li>
+                <li><a href="#why-gut-training" data-section="why-gut-training">Tại sao?</a></li>
+                <li><a href="#science" data-section="science">Khoa học</a></li>
+                <li><a href="#program" data-section="program">Chương trình</a></li>
+                <li><a href="#nutrition" data-section="nutrition">Dinh dưỡng</a></li>
+                <li><a href="#tips" data-section="tips">Mẹo hay</a></li>
+                <li><a href="#references" data-section="references">Tài liệu</a></li>
+            </ul>
+            <button class="nav-toggle">☰</button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Trang chủ -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero">
+                    <h1>Luyện Tập Đường Ruột Cho Vận Động Viên Chạy Bền</h1>
+                    <p class="hero-subtitle">Khám phá bí quyết nâng cao hiệu suất thể thao thông qua việc huấn luyện hệ tiêu hóa</p>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">90%</div>
+                            <div class="stat-label">VĐV gặp vấn đề tiêu hóa</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">16%</div>
+                            <div class="stat-label">Cải thiện oxy hóa glucose</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">8 tuần</div>
+                            <div class="stat-label">Chương trình luyện tập</div>
+                        </div>
+                    </div>
+                    <button class="btn btn--primary btn--lg" onclick="showSection('why-gut-training')">
+                        Bắt đầu tìm hiểu
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tại sao cần luyện tập đường ruột -->
+        <section id="why-gut-training" class="section">
+            <div class="container">
+                <h1>Tại Sao Cần Luyện Tập Đường Ruột?</h1>
+                
+                <div class="content-grid">
+                    <div class="content-block">
+                        <h3>🏃‍♀️ Vấn đề phổ biến</h3>
+                        <p>Nghiên cứu cho thấy <strong>60-90%</strong> vận động viên chạy bền gặp phải các vấn đề về đường ruột trong quá trình thi đấu và luyện tập:</p>
+                        <ul>
+                            <li>Buồn nôn và nôn mửa</li>
+                            <li>Đau bụng và co thắt</li>
+                            <li>Tiêu chảy</li>
+                            <li>Trào ngược axit</li>
+                            <li>Đầy hơi và khó tiêu</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-block">
+                        <h3>⚡ Tầm quan trọng của carbohydrate</h3>
+                        <p>Đối với các cuộc đua dài hơn 90 phút, cơ thể cần bổ sung 30-90g carbohydrate mỗi giờ để duy trì hiệu suất. Tuy nhiên, khả năng hấp thụ bị giới hạn bởi:</p>
+                        <ul>
+                            <li>Số lượng transporter SGLT1 và GLUT5</li>
+                            <li>Tốc độ làm rỗng dạ dày</li>
+                            <li>Sự dung nạp của đường ruột</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-block">
+                        <h3>📈 Lợi ích của việc luyện tập</h3>
+                        <p>Luyện tập đường ruột có thể mang lại:</p>
+                        <ul>
+                            <li><strong>Tăng 16%</strong> khả năng oxy hóa glucose</li>
+                            <li><strong>Giảm 5-20%</strong> triệu chứng tiêu hóa</li>
+                            <li>Cải thiện khả năng dung nạp carbohydrate</li>
+                            <li>Nâng cao hiệu suất thi đấu</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-block">
+                        <h3>🌏 Điều kiện khí hậu Việt Nam</h3>
+                        <p>Khí hậu nhiệt đới ẩm ướt của Việt Nam tạo ra thách thức đặc biệt:</p>
+                        <ul>
+                            <li>Mất nước và điện giải nhiều hơn</li>
+                            <li>Stress nhiệt ảnh hưởng đến tiêu hóa</li>
+                            <li>Cần chiến lược dinh dưỡng phù hợp</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="call-to-action">
+                    <button class="btn btn--primary" onclick="showSection('science')">
+                        Tìm hiểu khoa học đằng sau
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Khoa học đằng sau -->
+        <section id="science" class="section">
+            <div class="container">
+                <h1>Khoa Học Đằng Sau Việc Luyện Tập Đường Ruột</h1>
+                
+                <div class="science-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>🧬 Cơ chế hấp thụ carbohydrate</h3>
+                            <p>Đường ruột non hấp thụ carbohydrate thông qua hai loại transporter chính:</p>
+                            
+                            <div class="transporter-grid">
+                                <div class="transporter-card">
+                                    <h4>SGLT1 Transporter</h4>
+                                    <ul>
+                                        <li>Hấp thụ glucose và galactose</li>
+                                        <li>Bão hòa ở ~60g/giờ</li>
+                                        <li>Tăng số lượng qua luyện tập</li>
+                                    </ul>
+                                </div>
+                                <div class="transporter-card">
+                                    <h4>GLUT5 Transporter</h4>
+                                    <ul>
+                                        <li>Hấp thụ fructose</li>
+                                        <li>Không cạnh tranh với glucose</li>
+                                        <li>Cho phép hấp thụ >60g/giờ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <h3>Tỷ lệ oxy hóa carbohydrate</h3>
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1749487475/pplx_code_interpreter/b88923a3_fykfly.jpg" alt="Biểu đồ tỷ lệ oxy hóa carbohydrate" class="chart-image">
+                        <p class="chart-caption">Nguồn carbohydrate kết hợp (glucose + fructose) vượt qua giới hạn SGLT1, cho phép oxy hóa carbohydrate cao hơn</p>
+                    </div>
+
+                    <div class="research-findings">
+                        <h3>📊 Kết quả nghiên cứu quan trọng</h3>
+                        <div class="findings-grid">
+                            <div class="finding-card">
+                                <div class="finding-protocol">Chế độ ăn nhiều carbohydrate (8.5g/kg/ngày)</div>
+                                <div class="finding-duration">28 ngày</div>
+                                <div class="finding-result">↑16% oxy hóa glucose</div>
+                            </div>
+                            <div class="finding-card">
+                                <div class="finding-protocol">Sử dụng gel trong tập luyện</div>
+                                <div class="finding-duration">2 tuần</div>
+                                <div class="finding-result">↓5% triệu chứng GI</div>
+                            </div>
+                            <div class="finding-card">
+                                <div class="finding-protocol">Bổ sung glucose 400g/ngày</div>
+                                <div class="finding-duration">3-4 ngày</div>
+                                <div class="finding-result">↑Tốc độ làm rỗng dạ dày</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="call-to-action">
+                    <button class="btn btn--primary" onclick="showSection('program')">
+                        Xem chương trình 8 tuần
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chương trình 8 tuần -->
+        <section id="program" class="section">
+            <div class="container">
+                <h1>Chương Trình Luyện Tập Đường Ruột 8 Tuần</h1>
+                
+                <div class="program-overview">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>📋 Tổng quan chương trình</h3>
+                            <p>Chương trình được thiết kế để từng bước tăng khả năng dung nạp carbohydrate của đường ruột trong 8 tuần, chuẩn bị cho các sự kiện chạy bền dài.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3>Tiến trình 8 tuần</h3>
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1749487550/pplx_code_interpreter/f5d7f98c_kst0t8.jpg" alt="Biểu đồ tiến trình 8 tuần" class="chart-image">
+                </div>
+
+                <div class="weekly-program">
+                    <h3>Chi tiết từng tuần</h3>
+                    <div class="weeks-container" id="weeks-container">
+                        <!-- Weeks will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="progress-tracker">
+                    <h3>🎯 Theo dõi tiến độ của bạn</h3>
+                    <div class="tracker-container">
+                        <div class="current-week">
+                            <label for="week-select">Tuần hiện tại:</label>
+                            <select id="week-select" class="form-control">
+                                <option value="1">Tuần 1</option>
+                                <option value="2">Tuần 2</option>
+                                <option value="3">Tuần 3</option>
+                                <option value="4">Tuần 4</option>
+                                <option value="5">Tuần 5</option>
+                                <option value="6">Tuần 6</option>
+                                <option value="7">Tuần 7</option>
+                                <option value="8">Tuần 8</option>
+                            </select>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-fill"></div>
+                        </div>
+                        <div class="progress-text" id="progress-text">Chọn tuần để xem tiến độ</div>
+                    </div>
+                </div>
+
+                <div class="call-to-action">
+                    <button class="btn btn--primary" onclick="showSection('nutrition')">
+                        Xem hướng dẫn dinh dưỡng
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hướng dẫn dinh dưỡng -->
+        <section id="nutrition" class="section">
+            <div class="container">
+                <h1>Hướng Dẫn Dinh Dưỡng</h1>
+                
+                <div class="nutrition-calculator">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>🧮 Tính toán nhu cầu carbohydrate</h3>
+                            <div class="calculator-inputs">
+                                <div class="form-group">
+                                    <label class="form-label">Cân nặng (kg):</label>
+                                    <input type="number" id="weight-input" class="form-control" placeholder="Nhập cân nặng">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Thời gian tập/đua (giờ):</label>
+                                    <input type="number" id="duration-input" class="form-control" placeholder="Nhập thời gian" step="0.5">
+                                </div>
+                                <button class="btn btn--secondary" onclick="calculateCarbs()">Tính toán</button>
+                            </div>
+                            <div id="calculation-result" class="calculation-result"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nutrition-recommendations">
+                    <h3>📊 Khuyến nghị theo thời gian tập luyện</h3>
+                    <div class="recommendations-table" id="recommendations-table">
+                        <!-- Table will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="vietnamese-foods">
+                    <h3>🥢 Thực phẩm Việt Nam phù hợp</h3>
+                    <div class="foods-grid">
+                        <div class="food-card">
+                            <h4>🍚 Cơm tấm</h4>
+                            <div class="food-carbs">45g carbs/100g</div>
+                            <div class="food-usage">Bữa sáng trước đua</div>
+                        </div>
+                        <div class="food-card">
+                            <h4>🥖 Bánh mì</h4>
+                            <div class="food-carbs">50g carbs/100g</div>
+                            <div class="food-usage">2-3 giờ trước tập</div>
+                        </div>
+                        <div class="food-card">
+                            <h4>🥥 Nước dừa tươi</h4>
+                            <div class="food-carbs">4g carbs/100ml</div>
+                            <div class="food-usage">Trong và sau tập</div>
+                        </div>
+                        <div class="food-card">
+                            <h4>🍌 Chuối</h4>
+                            <div class="food-carbs">23g carbs/100g</div>
+                            <div class="food-usage">Trước và trong tập</div>
+                        </div>
+                        <div class="food-card">
+                            <h4>🍠 Khoai lang</h4>
+                            <div class="food-carbs">20g carbs/100g</div>
+                            <div class="food-usage">Bữa sáng hoặc tối</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timing-guidelines">
+                    <h3>⏰ Hướng dẫn thời gian bổ sung</h3>
+                    <div class="timing-cards">
+                        <div class="timing-card">
+                            <h4>Trước tập (2-4 giờ)</h4>
+                            <ul>
+                                <li>1-4g carbs/kg cân nặng</li>
+                                <li>Thực phẩm quen thuộc</li>
+                                <li>Ít chất xơ và chất béo</li>
+                            </ul>
+                        </div>
+                        <div class="timing-card">
+                            <h4>Trong tập (>60 phút)</h4>
+                            <ul>
+                                <li>30-90g carbs/giờ</li>
+                                <li>Kết hợp glucose:fructose 2:1</li>
+                                <li>Uống 150-250ml mỗi 15-20 phút</li>
+                            </ul>
+                        </div>
+                        <div class="timing-card">
+                            <h4>Sau tập (0-30 phút)</h4>
+                            <ul>
+                                <li>1-1.2g carbs/kg cân nặng</li>
+                                <li>Kết hợp với protein</li>
+                                <li>Bù nước và điện giải</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="call-to-action">
+                    <button class="btn btn--primary" onclick="showSection('tips')">
+                        Xem mẹo thực hành
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mẹo thực hành -->
+        <section id="tips" class="section">
+            <div class="container">
+                <h1>Mẹo Thực Hành</h1>
+                
+                <div class="tips-content">
+                    <div class="tip-category">
+                        <h3>🚀 Cách bắt đầu luyện tập đường ruột</h3>
+                        <div class="tips-list">
+                            <div class="tip-item">
+                                <div class="tip-icon">1️⃣</div>
+                                <div class="tip-content">
+                                    <h4>Bắt đầu từ từ</h4>
+                                    <p>Khởi đầu với 15-20g carbs/giờ trong những buổi tập ngắn (60-90 phút)</p>
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <div class="tip-icon">2️⃣</div>
+                                <div class="tip-content">
+                                    <h4>Thực hành thường xuyên</h4>
+                                    <p>Luyện tập gut training ít nhất 2-3 lần/tuần trong các buổi tập dài</p>
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <div class="tip-icon">3️⃣</div>
+                                <div class="tip-content">
+                                    <h4>Tăng dần</h4>
+                                    <p>Tăng 5-10g carbs/giờ mỗi tuần cho đến khi đạt mục tiêu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tip-category">
+                        <h3>❌ Những lỗi thường gặp cần tránh</h3>
+                        <div class="mistakes-grid">
+                            <div class="mistake-card">
+                                <h4>🚫 Tăng quá nhanh</h4>
+                                <p>Không nên nhảy từ 30g lên 60g carbs/giờ trong một tuần</p>
+                            </div>
+                            <div class="mistake-card">
+                                <h4>🚫 Chỉ thử nghiệm ngày đua</h4>
+                                <p>Luôn thử chiến lược dinh dưỡng trong tập luyện trước</p>
+                            </div>
+                            <div class="mistake-card">
+                                <h4>🚫 Bỏ qua hydration</h4>
+                                <p>Cần uống đủ nước để hỗ trợ quá trình tiêu hóa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tip-category">
+                        <h3>🔧 Khắc phục vấn đề tiêu hóa</h3>
+                        <div class="troubleshooting">
+                            <div class="problem-solution">
+                                <div class="problem">
+                                    <h4>Vấn đề: Buồn nôn</h4>
+                                    <ul>
+                                        <li>Giảm nồng độ đồ uống</li>
+                                        <li>Uống từng ngụm nhỏ thường xuyên</li>
+                                        <li>Thử thay đổi loại carbohydrate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="problem-solution">
+                                <div class="problem">
+                                    <h4>Vấn đề: Đau bụng/co thắt</h4>
+                                    <ul>
+                                        <li>Giảm lượng carbs xuống mức thoải mái</li>
+                                        <li>Tránh các sản phẩm có sorbitol</li>
+                                        <li>Tăng từ từ trong những tuần tiếp theo</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tip-category">
+                        <h3>🏁 Chiến lược ngày đua</h3>
+                        <div class="race-strategy">
+                            <div class="strategy-timeline">
+                                <div class="strategy-phase">
+                                    <div class="phase-time">3-4 ngày trước</div>
+                                    <div class="phase-action">Carb loading (8-12g/kg/ngày)</div>
+                                </div>
+                                <div class="strategy-phase">
+                                    <div class="phase-time">Sáng đua</div>
+                                    <div class="phase-action">Bữa sáng quen thuộc, 2-4 giờ trước</div>
+                                </div>
+                                <div class="strategy-phase">
+                                    <div class="phase-time">Trong đua</div>
+                                    <div class="phase-action">Thực hiện chiến lược đã luyện tập</div>
+                                </div>
+                                <div class="strategy-phase">
+                                    <div class="phase-time">Sau đua</div>
+                                    <div class="phase-action">Phục hồi với carbs + protein</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checklist-section">
+                        <h3>✅ Checklist chuẩn bị</h3>
+                        <div class="checklist">
+                            <div class="checklist-item">
+                                <input type="checkbox" id="check1">
+                                <label for="check1">Đã luyện tập gut training ít nhất 4-6 tuần</label>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="check2">
+                                <label for="check2">Đã thử nghiệm tất cả sản phẩm dinh dưỡng sẽ dùng</label>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="check3">
+                                <label for="check3">Có kế hoạch cụ thể cho từng giờ trong cuộc đua</label>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="check4">
+                                <label for="check4">Đã luyện tập ăn uống trong điều kiện khí hậu tương tự</label>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="check5">
+                                <label for="check5">Có phương án dự phòng khi gặp vấn đề tiêu hóa</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="call-to-action">
+                    <button class="btn btn--primary" onclick="showSection('references')">
+                        Xem tài liệu tham khảo
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tài liệu tham khảo -->
+        <section id="references" class="section">
+            <div class="container">
+                <h1>Tài Liệu Tham Khảo</h1>
+                
+                <div class="references-content">
+                    <div class="primary-reference">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>📚 Nghiên cứu chính</h3>
+                                <div class="reference-item main-reference">
+                                    <h4>Training the Gut for Athletes</h4>
+                                    <p><strong>Tác giả:</strong> Asker E. Jeukendrup</p>
+                                    <p><strong>Tạp chí:</strong> Sports Medicine, 2017</p>
+                                    <p><strong>DOI:</strong> 10.1007/s40279-017-0690-6</p>
+                                    <a href="https://link.springer.com/article/10.1007/s40279-017-0690-6" target="_blank" class="btn btn--outline">
+                                        Đọc nghiên cứu gốc
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="additional-references">
+                        <h3>📖 Nghiên cứu bổ sung</h3>
+                        <div class="references-list">
+                            <div class="reference-item">
+                                <h4>Carbohydrate ingestion during endurance exercise</h4>
+                                <p>Jeukendrup, A. (2014). Sports Medicine, 44(1), 117-127</p>
+                            </div>
+                            <div class="reference-item">
+                                <h4>Multiple transportable carbohydrates enhance gastric emptying and fluid delivery</h4>
+                                <p>Shi, X., et al. (2013). European Journal of Applied Physiology, 113(11), 2835-2843</p>
+                            </div>
+                            <div class="reference-item">
+                                <h4>Gastrointestinal distress during marathon running</h4>
+                                <p>Costa, R.J., et al. (2017). Applied Physiology, Nutrition, and Metabolism, 42(7), 773-781</p>
+                            </div>
+                            <div class="reference-item">
+                                <h4>Nutritional considerations for ultra-endurance exercise</h4>
+                                <p>Stellingwerff, T., & Cox, G. R. (2014). Research in Sports Medicine, 22(1), 24-37</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resources-section">
+                        <h3>🔗 Tài nguyên hữu ích</h3>
+                        <div class="resources-grid">
+                            <div class="resource-card">
+                                <h4>🥤 Sản phẩm thể thao</h4>
+                                <ul>
+                                    <li>Gatorade Endurance</li>
+                                    <li>Maurten Drink Mix</li>
+                                    <li>SIS GO Energy</li>
+                                    <li>GU Energy Gel</li>
+                                </ul>
+                            </div>
+                            <div class="resource-card">
+                                <h4>📱 Ứng dụng theo dõi</h4>
+                                <ul>
+                                    <li>MyFitnessPal (theo dõi dinh dưỡng)</li>
+                                    <li>Strava (lưu lại ghi chú tập luyện)</li>
+                                    <li>TrainingPeaks (phân tích chi tiết)</li>
+                                </ul>
+                            </div>
+                            <div class="resource-card">
+                                <h4>🏃‍♀️ Sự kiện Việt Nam</h4>
+                                <ul>
+                                    <li>Vietnam Mountain Marathon</li>
+                                    <li>Dalat Ultra Trail</li>
+                                    <li>Ho Chi Minh City Marathon</li>
+                                    <li>Hue Half Marathon</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-section">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>💬 Liên hệ và góp ý</h3>
+                                <p>Ứng dụng này được phát triển dựa trên nghiên cứu khoa học để hỗ trợ cộng đồng vận động viên chạy bền Việt Nam.</p>
+                                <p>Nếu bạn có câu hỏi hoặc góp ý, hãy liên hệ với các chuyên gia dinh dưỡng thể thao hoặc huấn luyện viên có kinh nghiệm.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Gut Training VN. Dựa trên nghiên cứu khoa học của Asker E. Jeukendrup.</p>
+                <p>Chỉ mang tính chất tham khảo. Tham khảo ý kiến chuyên gia trước khi áp dụng.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
