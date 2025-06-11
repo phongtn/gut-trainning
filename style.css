@@ -1267,8 +1267,7 @@ select.form-control {
 
 .main-reference {
   padding: var(--space-24);
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
-  color: white;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));  
   border-radius: var(--radius-lg);
 }
 
